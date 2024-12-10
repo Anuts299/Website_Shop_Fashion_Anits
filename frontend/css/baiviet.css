@@ -1,0 +1,67 @@
+#Baiviet .container {
+    margin-top: 170px;
+    margin-bottom: 50px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+
+#Baiviet .danhmucbaiviet>p {
+    font-size: 25px;
+    font-weight: 700;
+    color: #554dde;
+}
+
+#Baiviet .danhmucbaiviet li {
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #554dde;
+}
+
+#Baiviet #myTabContent {
+    max-height: 700px;
+    /* Đặt chiều cao tối đa cho container */
+    overflow-y: auto;
+    /* Tạo thanh cuộn dọc khi cần */
+}
+
+#Baiviet #myTabContent .blog-post {
+    border: #554dde 3px solid;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    margin-bottom: 30px;
+}
+
+#Baiviet #myTabContent .blog-post h5 {
+    font-size: 25px;
+    font-weight: 700;
+    color: #554dde;
+    margin-top: 10px;
+}
+
+#Baiviet #myTabContent .blog-post small {
+    font-size: 17px;
+    font-style: italic;
+}
+
+#Baiviet #myTabContent .blog-post p {
+    margin-top: 10px;
+    font-size: 18px;
+    text-indent: 1rem;
+    text-align: justify;
+}
+
+#Baiviet #myTabContent .blog-post img {
+    width: 600px;
+    height: auto;
+    display: block;
+    /* Hiển thị hình ảnh dưới dạng khối */
+    margin-left: auto;
+    /* Căn giữa theo chiều ngang */
+    margin-right: auto;
+    /* Căn giữa theo chiều ngang */
+}

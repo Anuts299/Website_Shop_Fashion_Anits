@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>FROM THÊM SẢN PHẨM</h1>
+        <form action="xulythemsanpham.php" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td>Tên sản phẩm:</td>
+                    <td><input type="text" name="f_fullname" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <td>Mô tả sản phẩm:</td>
+                    <td><input type="text" name="f_description" style="width:400px; height:250px"></td>
+                </tr>
+                <tr>
+                    <td>Chọn hình ảnh:</td>
+                    <td><input type="file" name="f_thumbnail"></td>
+                </tr>
+                <tr>
+                    <td>Giá bán:</td>
+                    <td><input type="number" name="f_price"></td>
+                </tr>
+                <tr>
+                    <td>Giá giảm:</td>
+                    <td><input type="number" name="f_discount"></td>
+                </tr>
+                <tr>
+                    <td>Tên danh mục sản phẩm:</td>
+                    <td><input type="name" name="f_category" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <td>Thương hiệu:</td>
+                    <td><input type="number" name="f_brand" maxlength="50"></td>
+                </tr>
+                <tr>
+                    <td>Số lượng trong kho:</td>
+                    <td><input type="number" name="f_stock_quantity"></td>
+                </tr>
+                <tr>
+                    <td>Trạng thái sản phẩm:</td>
+                    <td><input type="number" name="f_status"></td>
+                </tr>
+                <tr>
+                    <td>Ngày tạo:</td>
+                    <td><input type="date" name="f_created"></td>
+                </tr>
+                <tr>
+                    <td>Ngày cập nhật:</td>
+                    <td><input type="date" name="f_updated"></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Thêm sản phẩm"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+</body>
+
+</html>

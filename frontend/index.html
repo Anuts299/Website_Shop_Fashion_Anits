@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/96addb123b.js" crossorigin="anonymous"></script>
+    <!--Bootstrap CSS  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Anits</title>
+</head>
+<style>
+    ::-webkit-scrollbar {
+        width: 12px;
+        /* Đặt độ rộng cho thanh cuộn */
+    }
+
+    ::-webkit-scrollbar-track {
+        background: transparent;
+        /* Đặt màu nền cho thanh cuộn */
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: #588eee;
+        /* Đặt màu cho phần di chuyển của thanh cuộn */
+        border-radius: 20px;
+        /* Làm tròn góc của phần di chuyển */
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #554dde;
+        /* Đổi màu khi di chuột qua phần di chuyển */
+    }
+</style>
+
+<body>
+    <section id="header"></section>
+    <section id="noidung"></section>
+    <section id="footer"></section>
+
+
+    <!--Bootstrap JS  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+        </script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function loadPage(pageName) {
+            $("#noidung").load("pages/" + pageName + ".php", function () {
+                $.getScript("js/" + pageName + ".js");
+            });
+        }
+        $("#header").load("pages/header.php", function () {
+            //Khi nhấn trang chủ
+            $("#Trangchu").click(function (e) {
+                e.preventDefault();
+                loadPage('trangchu');
+            });
+            $("#Trangchu2").click(function (e) {
+                e.preventDefault();
+                loadPage('trangchu');
+            });
+            // khi nhấn Tài khoản
+            $("#Taikhoan").click(function (e) {
+                e.preventDefault();// Ngăn chặn hành vi mặc định
+                loadPage('taikhoan');
+            });
+            //khi nhấn Đơn hàng
+            $("#Donhang").click(function (e) {
+                e.preventDefault();
+                loadPage('donhang');
+            });
+            //Khi nhấn Giỏ hàng
+            $("#Giohang").click(function (e) {
+                e.preventDefault();
+                loadPage('giohang');
+            });
+            //khi nhấn Liên hệ
+            $("#Lienhe").click(function (e) {
+                e.preventDefault();
+                loadPage('lienhe');
+            });
+            //Khi nhấn Bài viết
+            $("#Baiviet").click(function (e) {
+                e.preventDefault();
+                loadPage('baiviet');
+            });
+            //Khi nhấn nút Đăng nhập
+            $("#button-login").click(function (e) {
+                e.preventDefault();
+                loadPage('dangnhap');
+            });
+        });
+        $("#footer").load("pages/footer.php");
+        $("#noidung").load("pages/trangchu.php", function () {
+            //Khi nhấn danh sách sản phẩm
+            $("#Danhsachsanpham").click(function (e) {
+                e.preventDefault();
+                loadPage('sanpham');
+            });
+            //Khi nhấn Bài viết thời trang
+            $("#Baivietthoitrang").click(function (e) {
+                e.preventDefault();
+                loadPage('baiviet');
+            });
+            // Sử dụng event delegation để xử lý sự kiện click cho các nút chi tiết sản phẩm
+            $(document).on('click', '.chitietsanpham', function (e) {
+                e.preventDefault();
+                const productId = $(this).data('id'); // Lấy id sản phẩm từ thuộc tính data-id của nút
+                sessionStorage.setItem('selectedproductId', productId);
+                loadPage('chitietsanpham');
+            });
+        });
+        // Thiết lập một cookie với các thuộc tính SameSite và Secure
+        document.cookie = "key=value; SameSite=None; Secure; HttpOnly";
+    </script>
+</body>
+
+</html>

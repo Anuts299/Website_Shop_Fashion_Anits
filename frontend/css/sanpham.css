@@ -1,0 +1,95 @@
+#Sanpham .container {
+    margin-top: 170px;
+    margin-bottom: 50px;
+}
+
+.nav-pills .nav-link {
+    border-radius: 0;
+}
+
+#Sanpham .danhmucsanpham p {
+    font-size: 25px;
+    font-weight: 700;
+    color: #554dde;
+
+}
+
+#Sanpham .danhmucsanpham li {
+    margin-bottom: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    color: #554dde;
+}
+
+
+#Sanpham .tab-pane>.col {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#Sanpham #myTabContent {
+    max-height: 900px;
+    /* Đặt chiều cao tối đa cho container */
+    overflow-y: auto;
+    /* Tạo thanh cuộn dọc khi cần */
+}
+
+#Sanpham .card {
+    margin-bottom: 15px;
+    width: 275px;
+    height: 588px;
+}
+
+#Sanpham .card-body .brand {
+    font-size: 16px;
+}
+
+#Sanpham .card-title {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+#Sanpham .card .card-body .giathanh {
+    color: #554dde;
+    font-size: 17px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+#Sanpham .card .card-body .giathanh span {
+    font-size: 14px;
+    padding-left: 10px;
+    color: #838383;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+#Sanpham .card .card-body .btn {
+    border: #588eee 2px solid;
+    color: #588eee;
+    font-weight: 600;
+    transition: 0.1s ease;
+}
+
+#Sanpham .card .card-body .btn:hover {
+    background-color: #588eee;
+    color: white;
+}
+
+#Sanpham .card .card-body .btn:active {
+    transform: scale(0.8);
+}
+
+#Sanpham .card .card-img-top {
+    width: 100%;
+    height: 355.86px;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+#Sanpham .card .card-img-top:hover {
+    background-color: #847eee;
+    transform: scale(1.1);
+}

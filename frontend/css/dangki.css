@@ -1,0 +1,58 @@
+#Dangki .container {
+    margin-top: 180px;
+    margin-bottom: 50px;
+}
+
+#Dangki h2 {
+    color: #554dde;
+    font-weight: 700;
+}
+
+#Dangki h4 {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#Dangki .form-label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #554dde;
+}
+
+#Dangki .position-relative {
+    position: relative;
+}
+
+#Dangki .form-control {
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+#Dangki .show-password-btn,
+#Dangki .show-password_repeat-btn {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+}
+
+#Dangki .show-password-btn .fa-eye,
+#Dangki .show-password_repeat-btn .fa-eye {
+    color: #554dde;
+}
+
+#Dangki .btn_dangki:last-child {
+    width: 240px;
+    background-image: linear-gradient(to right, #59d3fc, #554dde);
+    padding: 15px 20px;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+#Dangki #error-message {
+    display: none;
+}

@@ -1,0 +1,30 @@
+#Donhang .container {
+    margin-top: 170px !important;
+    margin-bottom: 250px;
+}
+
+.dh {
+    font-size: 25px;
+    color: #554dde;
+    font-weight: 700;
+}
+
+thead {
+    font-size: 18px;
+}
+
+#Donhang thead th {
+    color: #554dde;
+}
+
+.bangdonhang th {
+    color: #588eee;
+}
+
+.bangdonhang .btn {
+    padding: 10 20px;
+    background-color: #588eee;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+}

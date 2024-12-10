@@ -1,0 +1,59 @@
+#Login {
+    margin-top: 180px;
+}
+
+#Login .container {
+    margin-bottom: 100px;
+}
+
+#Login h2 {
+    color: #554dde;
+    font-weight: 700;
+}
+
+#Login h4 {
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+#Login .form-label {
+    margin-bottom: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #554dde;
+}
+
+#Login .position-relative {
+    position: relative;
+}
+
+#Login .form-control {
+    margin-bottom: 20px;
+    height: 50px;
+    font-size: 19px;
+    font-weight: 500;
+}
+
+#Login .show-password-btn {
+    position: absolute;
+    top: 45px;
+    right: 10px;
+}
+
+#Login .show-password-btn .fa-eye {
+    color: #554dde;
+}
+
+#Login .btn_dangnhap:last-child {
+    width: 220px;
+    background-image: linear-gradient(to right, #59d3fc, #554dde);
+    padding: 15px 20px;
+    margin-top: 30px;
+    font-size: 22px;
+    font-weight: 600;
+    color: white;
+}
+
+#Login #error-message {
+    display: none;
+}

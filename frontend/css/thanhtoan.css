@@ -1,0 +1,160 @@
+#Thanhtoan {
+    margin-top: -50px;
+
+}
+
+#Thanhtoan form {
+    background-image: linear-gradient(to right, #59d3fc, #554dde);
+    /* padding-left: 5px;
+    padding-left: 5px; */
+}
+
+.dh {
+
+    font-size: 25px;
+    color: #554dde;
+    font-weight: 700;
+
+}
+
+.text-tttt {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.box-tttt>label[for="fullname_user_order"],
+.box-tttt>label[for="email_user_order"] {
+    margin-top: 20px;
+}
+
+.box-tttt>#fullname_user_order {
+    width: 455px;
+}
+
+.box-tttt>#email_user_order {
+    width: 460px;
+}
+
+.box-tttt>#phone_user_order {
+    width: 460px;
+}
+
+#account .address {
+    width: 100%;
+}
+
+.box-tttt>#city_user_order {
+    width: 299px;
+}
+
+.box-tttt>#district_user_order,
+.box-tttt>label[for="district_user_order"] {
+    width: 299px;
+    margin-left: 10px;
+}
+
+.box-tttt>#ward_user_order,
+.box-tttt>label[for="ward_user_order"] {
+    width: 299px;
+    margin-left: 10px;
+}
+
+#specific_address_user_order {
+    width: 394%;
+}
+
+#Thanhtoan .ghichuthanhtoan {
+    padding: 10px 10px;
+    border: 2px #554dde solid;
+    height: fit-content;
+}
+
+#Thanhtoan .ghichuthanhtoan>p {
+    font-size: 20px;
+    font-weight: 800;
+    color: #554dde;
+}
+
+#Thanhtoan .ghichuthanhtoan .phivanchuyen p,
+#Thanhtoan .ghichuthanhtoan .phuongthucthanhtoan p,
+#Thanhtoan .ghichuthanhtoan .tongthanhtien p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 16px;
+    color: #554dde;
+    font-weight: 500;
+}
+
+#Thanhtoan .ghichuthanhtoan hr {
+    height: 3px;
+    background-color: #554dde;
+    border-radius: 10px;
+    border: none;
+}
+
+#Thanhtoan .ghichuthanhtoan .tongthanhtien p {
+    font-size: 17px;
+    font-weight: 700;
+    color: #554dde;
+}
+
+#Thanhtoan .ghichuthanhtoan .phivanchuyen .left,
+#Thanhtoan .ghichuthanhtoan .phuongthucthanhtoan .left,
+#Thanhtoan .ghichuthanhtoan .tongthanhtien .left {
+    flex: 1;
+    text-align: left;
+}
+
+#Thanhtoan .ghichuthanhtoan .phivanchuyen .right,
+#Thanhtoan .ghichuthanhtoan .phuongthucthanhtoan .right,
+#Thanhtoan .ghichuthanhtoan .tongthanhtien .right {
+    text-align: right;
+}
+
+#Thanhtoan .ghichuthanhtoan .xacnhanthanhtoan {
+    box-sizing: border-box;
+    background-color: #59d3fc;
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+#Thanhtoan .ghichuthanhtoan .xacnhanthanhtoan:hover {
+    outline: 3px #59d3fc solid;
+    background-color: white;
+    color: #59d3fc
+}
+
+#Thanhtoan .ghichuthanhtoan .xacnhanthanhtoan:active {
+    transform: scale(0.95);
+}
+
+#QuayLaiGioHang {
+    background-color: #554dde;
+    margin-top: 10px;
+    color: white;
+    font-weight: 600;
+}
+
+#Thanhtoan .giohangdachon table tbody tr {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#Thanhtoan .giohangdachon table tbody tr {
+    height: 80px;
+}
+
+#Thanhtoan .giohangdachon tbody td img {
+    width: 70%;
+}
+
+#Thanhtoan .giohangdachon tbody td:nth-child(2) {
+    width: 10%;
+    padding: 10px 8px;
+}

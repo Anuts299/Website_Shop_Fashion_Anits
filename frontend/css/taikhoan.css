@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+#account {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+.form-ttcn {
+    background-image: linear-gradient(to right, #59d3fc, #554dde);
+}
+
+.text-ttcn {
+    font-size: 25px;
+    font-weight: bold;
+    color: #554dde;
+}
+
+.text-ttct {
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+}
+
+.box-ttcn>label[for="fullname_user"],
+.box-ttcn>label[for="email_user"] {
+    margin-top: 20px;
+}
+
+.box-ttcn>#fullname_user {
+    width: 600px;
+}
+
+.box-ttcn>#email_user {
+    width: 550px;
+}
+
+.box-ttcn>#phone_user {
+    width: 600px;
+}
+
+.gioitinh {
+    width: 550px;
+}
+
+.form-check-inline+.form-check-inline {
+    margin-left: 50px;
+}
+
+.form-check-inline>label[for="male_option"],
+.form-check-inline>label[for="female_option"] {
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* Ẩn radio button gốc */
+input[type='radio'] {
+    display: none;
+}
+
+/* Tạo một radio button mới */
+input[type='radio']+label:before {
+    content: '';
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 2px solid #59d3fc;
+    /* Màu viền của radio button */
+    background-color: #f1f2f6;
+    /* Màu nền của radio button */
+}
+
+/* Thay đổi màu sắc khi radio button được chọn */
+input[type='radio']:checked+label:before {
+    background-color: #59d3fc;
+    /* Màu nền khi radio button được chọn */
+}
+
+#account .address {
+    width: 100%;
+}
+
+.box-ttcn>#city_user {
+    width: 377px;
+}
+
+.box-ttcn>#district_user,
+.box-ttcn>label[for="district_user"] {
+    width: 377px;
+    margin-left: 10px;
+}
+
+.box-ttcn>#ward_user,
+.box-ttcn>label[for="ward_user"] {
+    width: 377px;
+    margin-left: 10px;
+}
+
+#specific_address_user {
+    width: 1168px;
+}
+
+#saveButton {
+    color: #554dde;
+    background-color: white;
+    font-size: 25px;
+    font-weight: 700;
+    transition: 0.5s ease;
+}
+
+#saveButton:hover {
+    background-color: #59d3fc;
+    color: white;
+}
+
+#saveButton:active {
+    transform: scale(0.9);
+}

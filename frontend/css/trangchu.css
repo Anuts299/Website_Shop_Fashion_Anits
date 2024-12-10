@@ -1,0 +1,380 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Spartan', sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    line-height: 64px;
+    color: #222;
+}
+
+h2 {
+    font-size: 46px;
+    line-height: 54px;
+    color: #222;
+}
+
+h4 {
+    font-size: 20px;
+    color: #222;
+}
+
+h6 {
+    font-size: 12px;
+    font-weight: 700;
+}
+
+
+.section-p1 {
+    padding: 40px 80px;
+}
+
+.section-m1 {
+    margin: 40px 0;
+}
+
+body {
+    width: 100%;
+    margin: 0;
+}
+
+#noidung-trangchu .container {
+    margin-top: 135px;
+    margin-bottom: 30px;
+}
+
+/*Slider*/
+.slider {
+    width: 1300px;
+    height: 600px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.list {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    width: 1300px;
+    transition: 1s;
+}
+
+.list img {
+    width: 1300px;
+    max-width: 100vw;
+    height: 100%;
+    object-fit: cover;
+}
+
+.buttons {
+    position: absolute;
+    top: 45%;
+    left: 5%;
+    width: 1170px !important;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons div {
+    width: 50px;
+    height: 50px;
+    background-color: #EAF7CF;
+    color: #588eee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-weight: bold;
+}
+
+.dots {
+    position: absolute;
+    bottom: 10px;
+    color: white;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.dots li {
+    list-style: none;
+    width: 10px;
+    height: 10px;
+    background-color: #EAF7CF;
+    margin: 20px;
+    border-radius: 20px;
+    transition: 1s;
+}
+
+.dots li.active {
+    width: 30px;
+    background-color: #588eee;
+}
+
+@media screen and (max-width:768px) {
+    .slider {
+        height: 400px;
+    }
+}
+
+/*after-slider*/
+
+.after-slider div {
+    margin-right: 20px;
+    box-sizing: border-box;
+}
+
+.after-slider:last-child {
+    margin-right: 0;
+}
+
+.after-slider img {
+    margin-top: 10px;
+    width: 40%;
+    justify-items: end;
+}
+
+.after-slider div p {
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 18px;
+    color: black;
+    font-weight: 500;
+}
+
+.after-slider div span {
+    font-size: 16px;
+    color: #668bcc;
+}
+
+/*Danh sach san pham*/
+
+.nutdssp .btn {
+    border: #59d3fc 5px solid;
+    font-size: 25px;
+    font-weight: bold;
+    color: #554dde;
+    transition: 0.3s;
+}
+
+.nutdssp .btn:hover {
+    background-image: linear-gradient(to right, #554dde, #59d3fc);
+    color: white;
+}
+
+.nutdssp .btn:active {
+    transform: scale(0.9);
+}
+
+.danhsachsanpham .btn {
+    width: 50%;
+}
+
+.danhsachsanpham div {
+    margin-right: 10px;
+    box-sizing: border-box;
+}
+
+.danhsachsanpham img {
+    margin-top: 10px;
+    width: 60%;
+}
+
+.danhsachsanpham a {
+    height: 100%;
+    text-decoration: none;
+    border: #588eee 3px solid;
+    transition: 0.1s;
+}
+
+.danhsachsanpham a:hover {
+    border: none;
+    background-color: #9fe7ff;
+}
+
+.danhsachsanpham a:active {
+    transform: scale(0.9);
+    border: #588eee 5px solid;
+}
+
+.danhsachsanpham p {
+    line-height: 20px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #588eee;
+}
+
+/*Sam pham hot*/
+.nutsphot .btn {
+    border: #59d3fc 5px solid;
+    font-size: 25px;
+    font-weight: bold;
+    color: #554dde;
+    transition: 0.3s;
+}
+
+.nutsphot .btn:hover {
+    background-image: linear-gradient(to right, #554dde, #59d3fc);
+    color: white;
+}
+
+.nutsphot .btn:active {
+    transform: scale(0.9);
+}
+
+.sanphamhot .col {
+    margin-bottom: 20px;
+    width: 328px;
+    height: 560px;
+
+}
+
+.sanphamhot .col .card {
+    width: 304px;
+    height: 560px;
+}
+
+.sanphamhot .col .card h5 {
+    font-weight: 600;
+}
+
+.sanphamhot .col .card .giathanh {
+    color: #554dde;
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.sanphamhot .col .card .giathanh span {
+    font-size: 14px;
+    padding-left: 10px;
+    color: #838383;
+    font-weight: normal;
+    text-decoration: line-through;
+}
+
+.sanphamhot .col .card .btn {
+    border: #588eee 2px solid;
+    color: #588eee;
+    font-weight: 600;
+    transition: 0.1s ease;
+}
+
+.sanphamhot .col .card .btn:hover {
+    background-color: #588eee;
+    color: white;
+}
+
+.sanphamhot .col .card .btn:active {
+    transform: scale(0.8);
+}
+
+.col .card-img-top {
+    width: 100%;
+    height: 320px;
+    transition: 0.5s ease-in-out;
+    overflow: hidden;
+}
+
+
+.sanphamhot .card-img-top:hover {
+    background-color: #847eee;
+    transform: scale(1.1);
+
+}
+
+.sanphamhot>.col:nth-last-child(-n+4) {
+    display: none;
+}
+
+#Xemtatca {
+    border: #588eee 3px solid;
+    font-size: 25px;
+    color: #847eee;
+    font-weight: 600;
+    padding: 10px 50px;
+    transition: 0.3s;
+}
+
+#Xemtatca:hover {
+    background-image: linear-gradient(to right, #554dde, #59d3fc);
+    color: white;
+}
+
+#Xemtatca:active {
+    transform: scale(0.8);
+}
+
+/*Bài viết thời trang*/
+.baivietthoitrang .card:hover {
+    box-shadow: 0 0 15px -3px #6d6d6d;
+}
+
+#Baivietthoitrang {
+    border: #59d3fc 5px solid;
+    font-size: 25px;
+    font-weight: bold;
+    color: #554dde;
+    transition: 0.3s;
+}
+
+#Baivietthoitrang:hover {
+    background-image: linear-gradient(to right, #554dde, #59d3fc);
+    color: white;
+}
+
+#Baivietthoitrang:active {
+    transform: scale(0.9);
+}
+
+.auther_blog {
+    display: flex;
+    justify-content: space-between;
+}
+
+.baivietthoitrang .card-body {
+    background-color: #99e2d3;
+}
+
+.category_blog {
+    color: #588eee;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.title_blog {
+    color: #554dde !important;
+    font-weight: 700;
+}
+
+.auther_blog {
+    color: black;
+    margin-top: 5px;
+    font-style: italic;
+    font-weight: 500;
+    color: white;
+}
+
+.baivietthoitrang .card .btn {
+    background-color: #588eee;
+    color: white;
+    font-weight: 600;
+    transition: 0.3s ease;
+}
+
+.baivietthoitrang .card .btn:active {
+    transform: scale(0.95);
+}

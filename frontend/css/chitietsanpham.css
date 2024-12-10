@@ -1,0 +1,114 @@
+#Chitietsanpham {
+    margin-bottom: 190px;
+}
+
+#Chitietsanpham .container {
+    margin-top: 170px;
+}
+
+#Chitietsanpham .container .thongtinsp {
+    margin-bottom: 20px;
+}
+
+#Chitietsanpham .thongtinsp .multipe-image {
+    height: 400px;
+    padding: 0;
+}
+
+#Chitietsanpham .thongtinsp .multipe-image img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 30px;
+}
+
+#Chitietsanpham .thongtinsp #thumbnail {
+    height: 400px;
+}
+
+#Chitietsanpham .thongtinsp #thumbnail img {
+    width: 100%;
+    height: auto;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp {
+    height: auto;
+    padding: 0;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp #tensp {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp #thuonghieu {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp #thuonghieu span {
+    font-weight: 700;
+    color: #554dde;
+    margin-left: 20px;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp #giaban {
+    font-size: 25px;
+    font-weight: bold;
+    color: #554dde;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp #giaban span {
+    font-size: 17px;
+    font-weight: 500;
+    margin-left: 20px;
+    color: rgb(64, 64, 64);
+    text-decoration: line-through;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp #mota {
+    font-size: 20px;
+    font-weight: 700;
+    color: #554dde;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp #mota span {
+    font-weight: 500;
+    color: rgb(64, 64, 64);
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp .quantity {
+    width: 30%;
+    font-size: 20px;
+    font-weight: 700;
+    color: #554dde;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp .quantity .btn {
+    background-color: #554dde;
+    color: antiquewhite;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp .quantity .quantity-input {
+    text-align: center;
+    color: #554dde;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp .themvaogiohang {
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+    background-image: linear-gradient(to right, #554dde, #59d3fc);
+    width: 60%;
+    margin-left: 125px;
+    transition: 0.3s ease-in-out;
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp .themvaogiohang:active {
+    background-image: linear-gradient(to left, #554dde, #59d3fc);
+}
+
+#Chitietsanpham .thongtinsp #thongtindh_sp .themvaogiohang i {
+    margin-left: 10px;
+}

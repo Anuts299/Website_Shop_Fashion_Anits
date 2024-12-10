@@ -1,0 +1,112 @@
+#Giohang .container {
+    margin-top: 170px !important;
+    margin-bottom: 50px;
+}
+
+.gh {
+    font-size: 25px;
+    color: #554dde;
+    font-weight: 700;
+}
+
+#Giohang tbody tr {
+    height: 80px;
+}
+
+#Giohang tbody th img {
+    width: 70%;
+}
+
+#Giohang tbody th:nth-child(2) {
+    width: 10%;
+    padding: 10px 8px;
+}
+
+
+#Giohang tbody .xoasp {
+    padding: 5px 10px;
+    background-color: #554dde;
+    color: white;
+    font-size: 16px;
+    float: right;
+}
+
+#Giohang tbody .xoasp:hover {
+    background-color: #eb1919;
+}
+
+#Giohang .ghichugiohang {
+    padding: 10px 10px;
+    border: 2px #554dde solid;
+}
+
+#Giohang .ghichugiohang p {
+    font-size: 20px;
+    font-weight: 800;
+    color: #554dde;
+}
+
+#Giohang .ghichugiohang hr {
+    height: 3px;
+    background-color: #554dde;
+    border-radius: 10px;
+    border: none;
+}
+
+#Giohang .ghichugiohang .tongthanhtien p {
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+    font-weight: 700;
+}
+
+#Giohang .ghichugiohang .tongthanhtien .left {
+    flex: 1;
+    text-align: left;
+}
+
+#Giohang .ghichugiohang .tongthanhtien .right {
+    text-align: right;
+}
+
+#Giohang .ghichugiohang .thanhtoan {
+    box-sizing: border-box;
+    background-color: #59d3fc;
+    width: 100%;
+    padding: 10px 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 50px;
+    transition: transform 0.3s ease;
+}
+
+#Giohang .ghichugiohang .thanhtoan:hover {
+    outline: 3px #59d3fc solid;
+    background-color: white;
+    color: #59d3fc
+}
+
+#Giohang .ghichugiohang .thanhtoan:active {
+    transform: scale(0.95);
+}
+
+#Giohang .quantity {
+    width: 250px;
+}
+
+#Giohang #cart-items #stt {
+    width: 40px;
+}
+
+#Giohang #cart-items #fullname {
+    width: 253px;
+}
+
+#Giohang #cart-items .price {
+    width: 118px;
+}
+
+#Giohang #cart-items .total {
+    width: 170px;
+}
